@@ -1,6 +1,7 @@
 <html>
+    <head><title>Vote Counts</title></head>
     <body bgcolor = 'lightblue'>
-
+   
         <h1>{{ question.question_text }}</h1>
 
         <ul>
@@ -10,5 +11,7 @@
         </ul>
         
         <a href="{% url 'detail' question.id %}">Vote again?</a> 
+
+  
     </body>
 </html>               
